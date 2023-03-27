@@ -2,7 +2,7 @@
 /* Reset default browser styles and provide a consistent starting point */
 html {
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 10px;
 }
 
 *, *:before, *:after {
@@ -18,7 +18,36 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  width: 99vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+img {
+  width: 25vw;
+}
+
+#landing {
+  background-image: url("../images/apple-pie.jpg");
+  height: 60vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 80%;
+  font-size: 2rem;
+}
+
+h1 {
+  color: white;
+  font-size: 6.4rem;
+}
 /* STYLES */
 /* Write your CSS below */
